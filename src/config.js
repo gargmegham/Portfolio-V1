@@ -23,8 +23,8 @@ module.exports = {
       url: 'https://www.linkedin.com/in/megham-garg/',
     },
     {
-      name: 'HackerRank',
-      url: 'https://www.hackerrank.com/MeghamGarg',
+      name: 'Kaggle',
+      url: 'https://www.kaggle.com/meghamgarg',
     },
     {
       name: 'Instagram',
