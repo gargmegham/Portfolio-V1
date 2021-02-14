@@ -4,7 +4,7 @@ title: 'Full Stack Developer'
 company: 'Paxcom - Paymentus'
 location: 'Mohali, IN'
 range: 'Sept 2020 - Present'
-url: ''
+url: 'https://www.paxcom.ai/'
 ---
 
 - Automated the manual process of mapping the ID of similar products and competitor products through a SP in PostgreSQL in an eCommerce analytics dashboard, thus reducing the time required for mapping the products by up to 75%.
