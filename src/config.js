@@ -4,10 +4,8 @@ module.exports = {
     'Megham Garg is a software engineer based in Haryana, India who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
   siteKeywords:
     'Megham Garg, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://meghamgarg.netlify.app/',
+  siteUrl: 'https://meghamgarg.com/',
   siteLanguage: 'en_US',
-//   googleAnalyticsID: 'UA-173487916-1',
-//   googleVerification: 'df50OFkh1OF9qLl6akslOHqpnTFNnyT0Q1kvzmMT564',
   name: 'Megham Garg',
   location: 'Haryana, India',
   email: 'gargmegham3@gmail.com',
