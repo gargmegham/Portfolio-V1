@@ -15,4 +15,4 @@ tech:
 showInProjects: false
 ---
 
-An Ecommerce Platform for dropshipping utensils from Jagadhri, India.
+An Ecommerce Platform with separate admin and user login for dropshipping utensils from Jagadhri, India.
