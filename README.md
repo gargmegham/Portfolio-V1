@@ -12,15 +12,12 @@
 <p align="center">
   The portfolio of <a href="https://meghamgarg.netlify.app/" target="_blank">Megham_Garg</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
-## 🚨 Forking this repo (please read!)
+## 🚨
 
-Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
+Please also note that I did not build this site.
 
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
-
-Please also note that I did not build this site. 
 ### TL;DR
-Yes, you can fork this repo. Please give the original creator proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
+Yes, you can fork this repo. But please give the original creator proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
 ## 🛠 Installation & Set Up
 
 1. Install the Gatsby CLI
