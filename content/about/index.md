@@ -2,17 +2,23 @@
 title: 'About Me'
 avatar: './me.jpg'
 skills:
-  - JavaScript
-  - React
   - Python
   - Django
   - C++
-  - Scikit-Learn
+  - sklearn
+  - TensorFlow
+  - PostgreSQL
+  - MongoDB
   - Pandas
   - NumPy
   - seaborn
   - Spacy
+  - AWS
   - NLTK
+  - JavaScript
+  - React
+  - HTML
+  - CSS
   - Git
 ---
 
