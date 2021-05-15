@@ -49,7 +49,7 @@ module.exports = {
     },
     {
       name: 'Blog',
-      url: '/pensieve',
+      url: '/blog',
     },
     {
       name: 'Contact',

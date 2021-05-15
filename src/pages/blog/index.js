@@ -117,24 +117,21 @@ const StyledTags = styled.ul`
   }
 `;
 
-const PensievePage = ({ location, data }) => {
+const BlogPage = ({ location, data }) => {
   const posts = data.allMarkdownRemark.edges;
 
   return (
     <Layout location={location}>
       <Helmet>
-        <title>Pensieve | Megham Garg</title>
-        <link rel="canonical" href="https://meghamgarg.netlify.app/pensieve" />
+        <title>Articles | Megham Garg</title>
+        <link rel="canonical" href="https://meghamgarg.com/blog" />
       </Helmet>
 
       <StyledMainContainer>
         <header>
-          <h1 className="big-title">Pensieve</h1>
+          <h1 className="big-title">Articles</h1>
           <p className="subtitle">
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer">
+            <a href="https://meghamgarg.com/blog" target="_blank" rel="noopener noreferrer">
               a collection of memories
             </a>
           </p>
@@ -167,7 +164,7 @@ const PensievePage = ({ location, data }) => {
                         <StyledTags>
                           {tags.map((tag, i) => (
                             <li key={i}>
-                              <Link to={`/pensieve/tags/${kebabCase(tag)}/`}>#{tag}</Link>
+                              <Link to={`/blog/tags/${kebabCase(tag)}/`}>#{tag}</Link>
                             </li>
                           ))}
                         </StyledTags>
@@ -183,12 +180,12 @@ const PensievePage = ({ location, data }) => {
   );
 };
 
-PensievePage.propTypes = {
+BlogPage.propTypes = {
   location: PropTypes.object.isRequired,
   data: PropTypes.object.isRequired,
 };
 
-export default PensievePage;
+export default BlogPage;
 
 export const pageQuery = graphql`
   {
