@@ -3,7 +3,7 @@ module.exports = {
   siteDescription:
     'Megham Garg is a software engineer based in Haryana, India who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
   siteKeywords:
-    'Megham Garg, software engineer, front-end engineer, web developer, javascript, northeastern',
+    'Megham Garg, software engineer, front-end engineer, web developer, javascript, python, django, NLP, data science, machine learning',
   siteUrl: 'https://meghamgarg.com/',
   siteLanguage: 'en_US',
   name: 'Megham Garg',
@@ -14,7 +14,7 @@ module.exports = {
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/Megham-Garg/portfolio',
+      url: 'https://github.com/Megham-Garg/',
     },
     {
       name: 'Linkedin',
