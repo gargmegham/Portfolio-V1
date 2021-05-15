@@ -20,7 +20,7 @@ I value keeping my site open source, but as you all know, _**plagiarism is bad**
 
 Please also note that I did not build this site. 
 ### TL;DR
-Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
+Yes, you can fork this repo. Please give the original creator proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
 ## 🛠 Installation & Set Up
 
 1. Install the Gatsby CLI
