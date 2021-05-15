@@ -132,7 +132,7 @@ const BlogPage = ({ location, data }) => {
           <h1 className="big-title">Articles</h1>
           <p className="subtitle">
             <a href="https://meghamgarg.com/blog" target="_blank" rel="noopener noreferrer">
-              a collection of memories
+              a collection of experiences
             </a>
           </p>
         </header>
