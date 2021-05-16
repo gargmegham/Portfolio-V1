@@ -1,7 +1,7 @@
 ---
 date: '2019-06-10'
 title: 'Text Analytics'
-github: 'https://github.com/Megham-Garg/Text_analytics_api'
+github: 'https://github.com/Megham-Garg/SentimentAnalysisWebsite'
 external: 'http://oceanatech.pythonanywhere.com/'
 tech:
   - Python
