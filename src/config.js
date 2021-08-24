@@ -4,7 +4,7 @@ module.exports = {
     'Megham Garg is a software engineer based in Haryana, India who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
   siteKeywords:
     'Megham Garg, software engineer, front-end engineer, web developer, javascript, python, django, NLP, data science, machine learning',
-  siteUrl: 'https://meghamgarg.com/',
+  siteUrl: 'https://meghamgarg.netlify.app/',
   siteLanguage: 'en_US',
   name: 'Megham Garg',
   location: 'Haryana, India',
