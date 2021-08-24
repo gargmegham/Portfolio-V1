@@ -4,22 +4,22 @@ avatar: './me.jpg'
 skills:
   - Python
   - Django
+  - JavaScript
+  - React
+  - PostgreSQL
+  - MongoDB
+  - Git
+  - GCP
+  - HTML
+  - CSS
   - C++
   - sklearn
   - TensorFlow
-  - PostgreSQL
-  - MongoDB
   - Pandas
   - NumPy
   - seaborn
   - Spacy
-  - AWS
   - NLTK
-  - JavaScript
-  - React
-  - HTML
-  - CSS
-  - Git
 ---
 
 Hello! I'm Megham, a software engineer based in Haryana, IN.
