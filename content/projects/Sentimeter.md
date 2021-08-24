@@ -8,7 +8,7 @@ tech:
   - Django
   - HTML & CSS
   - Javascript
-showInProjects: false
+showInProjects: true
 ---
 
 - A web app for visualizing charts of sentiments based input texts given, by using NLP and text pre processing.
