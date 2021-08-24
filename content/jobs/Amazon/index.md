@@ -1,6 +1,6 @@
 ---
 date: '2020-02-03'
-title: 'Operations Manager Intern'
+title: 'OM/Data Analyst Intern'
 company: 'Amazon'
 location: 'Gurgaon, IN'
 range: 'Feb - Jun 2020'
