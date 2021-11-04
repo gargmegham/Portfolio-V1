@@ -3,7 +3,7 @@ date: '2020-09-07'
 title: 'Full Stack Developer'
 company: 'Paxcom - Paymentus'
 location: 'Mohali, IN'
-range: 'Sept 2020 - Present'
+range: 'Sept 2020 - Sept 2021'
 url: 'https://www.paxcom.ai/'
 ---
 
