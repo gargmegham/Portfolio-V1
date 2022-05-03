@@ -9,12 +9,12 @@ module.exports = {
   name: 'Megham Garg',
   location: 'Haryana, India',
   email: 'gargmegham3@gmail.com',
-  github: 'https://github.com/Megham-Garg/',
+  github: 'https://github.com/gargmegham/',
   twitterHandle: '@garg_megham',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/Megham-Garg/',
+      url: 'https://github.com/gargmegham/',
     },
     {
       name: 'Linkedin',
