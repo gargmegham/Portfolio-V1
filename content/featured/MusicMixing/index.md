@@ -15,4 +15,4 @@ tech:
 showInProjects: true
 ---
 
-Music Source Separation with DNNs. Read Research papers of audio source separation, audio fingerprint, and audio segmentation and then tried hands on this project.
+Music Source Separation with DNNs. Read and implemented a solution from research papers of audio source separation, audio fingerprint, and audio segmentation.
