@@ -1,7 +1,7 @@
 ---
 date: '2021-06-01'
 title: 'WebRTC Card Detection Game'
-github: 'https://github.com/Megham-Garg/CardDetector'
+github: 'https://github.com/gargmegham/CardDetector'
 external: ''
 tech:
   - Python

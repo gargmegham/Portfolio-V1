@@ -2,7 +2,7 @@
 date: '2'
 title: 'Utensiline'
 cover: './Utensiline.PNG'
-github: 'https://github.com/Megham-Garg/Utensiline'
+github: 'https://github.com/gargmegham/Utensiline'
 external: 'http://utensiline.pythonanywhere.com/'
 tech:
   - Python

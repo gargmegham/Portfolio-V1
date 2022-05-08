@@ -1,7 +1,7 @@
 ---
 date: '2021-01-07'
 title: 'Utensiline Ecommerce'
-github: 'https://github.com/Megham-Garg/Utensiline'
+github: 'https://github.com/gargmegham/Utensiline'
 external: 'http://utensiline.pythonanywhere.com/'
 tech:
   - Python

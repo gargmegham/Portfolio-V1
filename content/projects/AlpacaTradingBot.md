@@ -1,12 +1,16 @@
 ---
 date: '2021-06-01'
 title: 'Alpaca Trading Bot'
-github: 'https://github.com/Megham-Garg/AlpacaBot'
+github: 'https://github.com/gargmegham/AlpacaBot'
 external: ''
 tech:
   - Python
   - Alpaca API
-  - GCP Cloud functions, bucket and scheduler
+  - Gmail API
+  - Unit Tests
+  - GCP Cloud function
+  - GCP Bucket
+  - GCP Scheduler
 showInProjects: true
 ---
 

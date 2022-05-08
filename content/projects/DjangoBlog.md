@@ -1,7 +1,7 @@
 ---
 date: '2019-06-10'
 title: 'Blogging website'
-github: 'https://github.com/Megham-Garg/blog'
+github: 'https://github.com/gargmegham/blog'
 external: 'http://megham.pythonanywhere.com/'
 tech:
   - Python

@@ -1,14 +1,16 @@
 ---
 date: '2019-06-10'
 title: 'Text Analytics'
-github: 'https://github.com/Megham-Garg/SentimentAnalysisWebsite'
+github: 'https://github.com/gargmegham/SentimentAnalysisWebsite'
 external: 'http://oceanatech.pythonanywhere.com/'
 tech:
   - Python
   - Django
-  - HTML & CSS
+  - HTML
+  - CSS
   - Javascript
 showInProjects: true
 ---
 
-- A web app for visualizing charts of sentiments based input texts given, by using NLP and text pre processing.
+- This is a website that I made when I was working as an intern in Oceana Tech.
+- A web app for visualizing sentiment and analysing keywords in product reviews, by using NLP and text pre processing.
