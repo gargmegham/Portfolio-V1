@@ -13,9 +13,8 @@
   The portfolio of <a href="https://meghamgarg.netlify.app/" target="_blank">Megham_Garg</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 
-🚨 Please also note that I did not build this site.
-### Credits:
-[brittanychiang.com](https://brittanychiang.com). Thanks!
+### Credits🚨:
+Please also note that I did not build this site. Credits belongs to [brittanychiang.com](https://brittanychiang.com).
 
 ## 🛠 Installation & Set Up
 1. Install the Gatsby CLI
