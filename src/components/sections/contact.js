@@ -18,12 +18,14 @@ const StyledHeading = styled(Heading)`
   display: block;
   color: ${colors.green};
   font-size: ${fontSizes.md};
+  font-display: swap;
   font-family: ${fonts.SFMono};
   font-weight: normal;
   margin-bottom: 20px;
   justify-content: center;
   ${media.desktop`font-size: ${fontSizes.sm};`};
   &:before {
+    font-display: swap;
     bottom: 0;
     font-size: ${fontSizes.sm};
     ${media.desktop`font-size: ${fontSizes.smish};`};
@@ -35,6 +37,7 @@ const StyledHeading = styled(Heading)`
 const StyledTitle = styled.h4`
   margin: 0 0 20px;
   font-size: 60px;
+  font-display: swap;
   ${media.desktop`font-size: 50px;`};
   ${media.tablet`font-size: 40px;`};
 `;

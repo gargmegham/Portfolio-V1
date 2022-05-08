@@ -10,6 +10,7 @@ const Button = styled.button`
   font-size: ${fontSizes.smish};
   font-family: ${fonts.SFMono};
   line-height: 1;
+  font-display: swap;
   text-decoration: none;
   cursor: pointer;
   transition: ${theme.transition};

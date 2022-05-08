@@ -58,6 +58,7 @@ const StyledTable = styled.table`
       padding-top: 15px;
       color: ${colors.lightestSlate};
       font-size: ${fontSizes.xl};
+      font-display: swap;
       font-weight: 700;
     }
     &.company {
@@ -68,6 +69,7 @@ const StyledTable = styled.table`
     &.tech {
       font-size: ${fontSizes.xs};
       font-family: ${fonts.SFMono};
+      font-display: swap;
       .separator {
         margin: 0 5px;
       }

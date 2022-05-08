@@ -19,6 +19,7 @@ const StyledContainer = styled(Section)`
 const StyledOverline = styled.h1`
   color: ${colors.green};
   margin: 0 0 20px 3px;
+  font-display: swap;
   font-size: ${fontSizes.md};
   font-family: ${fonts.SFMono};
   font-weight: normal;
@@ -28,6 +29,7 @@ const StyledOverline = styled.h1`
 const StyledTitle = styled.h2`
   font-size: 80px;
   line-height: 1.1;
+  font-display: swap;
   margin: 0;
   ${media.desktop`font-size: 70px;`};
   ${media.tablet`font-size: 60px;`};
@@ -38,6 +40,7 @@ const StyledSubtitle = styled.h3`
   font-size: 80px;
   line-height: 1.1;
   color: ${colors.slate};
+  font-display: swap;
   ${media.desktop`font-size: 70px;`};
   ${media.tablet`font-size: 60px;`};
   ${media.phablet`font-size: 50px;`};

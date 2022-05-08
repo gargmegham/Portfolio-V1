@@ -28,12 +28,14 @@ const StyledLabel = styled.h4`
   font-size: ${fontSizes.smish};
   font-weight: normal;
   color: ${colors.green};
+  font-display: swap;
   font-family: ${fonts.SFMono};
   margin-top: 10px;
   padding-top: 0;
 `;
 const StyledProjectName = styled.h5`
   font-size: 28px;
+  font-display: swap;
   margin: 0 0 20px;
   color: ${colors.lightestSlate};
   ${media.tablet`font-size: 24px;`};
@@ -48,6 +50,7 @@ const StyledDescription = styled.div`
   z-index: 2;
   padding: 25px;
   background-color: ${colors.lightNavy};
+  font-display: swap;
   color: ${colors.lightSlate};
   font-size: ${fontSizes.lg};
   border-radius: ${theme.borderRadius};
@@ -79,6 +82,7 @@ const StyledTechList = styled.ul`
     font-family: ${fonts.SFMono};
     font-size: ${fontSizes.smish};
     color: ${colors.slate};
+    font-display: swap;
     margin-right: ${theme.margin};
     margin-bottom: 7px;
     white-space: nowrap;

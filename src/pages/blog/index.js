@@ -82,16 +82,19 @@ const StyledFolder = styled.div`
 const StyledPostName = styled.h5`
   margin: 0 0 10px;
   font-size: ${fontSizes.xxl};
+  font-display: swap;
   color: ${colors.lightestSlate};
 `;
 const StyledPostDescription = styled.div`
   font-size: 17px;
+  font-display: swap;
   color: ${colors.lightSlate};
 `;
 const StyledDate = styled.span`
   text-transform: uppercase;
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.xs};
+  font-display: swap;
   color: ${colors.lightSlate};
 `;
 const StyledTags = styled.ul`
@@ -107,6 +110,7 @@ const StyledTags = styled.ul`
     font-size: ${fontSizes.xs};
     color: ${colors.green};
     line-height: 1.75;
+    font-display: swap;
     margin-right: 15px;
     &:last-of-type {
       margin-right: 0;

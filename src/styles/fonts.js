@@ -46,6 +46,7 @@ import SFMonoSemiboldItalicWOFF2 from '@fonts/SFMono/SFMono-SemiboldItalic.woff2
 
 const FontFaces = css`
   @font-face {
+    font-display: swap;
     font-family: 'Calibre';
     src: url(${CalibreLightWOFF2}) format('woff2'), url(${CalibreLightWOFF}) format('woff'),
       url(${CalibreLightTTF}) format('truetype');
@@ -53,6 +54,7 @@ const FontFaces = css`
     font-style: normal;
   }
   @font-face {
+    font-display: swap;
     font-family: 'Calibre';
     src: url(${CalibreLightItalicWOFF2}) format('woff2'),
       url(${CalibreLightItalicWOFF}) format('woff'),
@@ -61,6 +63,7 @@ const FontFaces = css`
     font-style: italic;
   }
   @font-face {
+    font-display: swap;
     font-family: 'Calibre';
     src: url(${CalibreRegularWOFF2}) format('woff2'), url(${CalibreRegularWOFF}) format('woff'),
       url(${CalibreRegularTTF}) format('truetype');
@@ -68,6 +71,7 @@ const FontFaces = css`
     font-style: normal;
   }
   @font-face {
+    font-display: swap;
     font-family: 'Calibre';
     src: url(${CalibreRegularItalicWOFF2}) format('woff2'),
       url(${CalibreRegularItalicWOFF}) format('woff'),
@@ -76,6 +80,7 @@ const FontFaces = css`
     font-style: italic;
   }
   @font-face {
+    font-display: swap;
     font-family: 'Calibre';
     src: url(${CalibreMediumWOFF2}) format('woff2'), url(${CalibreMediumWOFF}) format('woff'),
       url(${CalibreMediumTTF}) format('truetype');
@@ -83,6 +88,7 @@ const FontFaces = css`
     font-style: normal;
   }
   @font-face {
+    font-display: swap;
     font-family: 'Calibre';
     src: url(${CalibreMediumItalicWOFF2}) format('woff2'),
       url(${CalibreMediumItalicWOFF}) format('woff'),
@@ -91,6 +97,7 @@ const FontFaces = css`
     font-style: italic;
   }
   @font-face {
+    font-display: swap;
     font-family: 'Calibre';
     src: url(${CalibreSemiboldWOFF2}) format('woff2'), url(${CalibreSemiboldWOFF}) format('woff'),
       url(${CalibreSemiboldTTF}) format('truetype');
@@ -98,6 +105,7 @@ const FontFaces = css`
     font-style: normal;
   }
   @font-face {
+    font-display: swap;
     font-family: 'Calibre';
     src: url(${CalibreSemiboldItalicWOFF2}) format('woff2'),
       url(${CalibreSemiboldItalicWOFF}) format('woff'),
@@ -106,6 +114,7 @@ const FontFaces = css`
     font-style: italic;
   }
   @font-face {
+    font-display: swap;
     font-family: 'SF Mono';
     src: url(${SFMonoRegularWOFF2}) format('woff2'), url(${SFMonoRegularWOFF}) format('woff'),
       url(${SFMonoRegularTTF}) format('truetype');
@@ -113,6 +122,7 @@ const FontFaces = css`
     font-style: normal;
   }
   @font-face {
+    font-display: swap;
     font-family: 'SF Mono';
     src: url(${SFMonoRegularItalicWOFF2}) format('woff2'),
       url(${SFMonoRegularItalicWOFF}) format('woff'),
@@ -121,6 +131,7 @@ const FontFaces = css`
     font-style: italic;
   }
   @font-face {
+    font-display: swap;
     font-family: 'SF Mono';
     src: url(${SFMonoMediumWOFF2}) format('woff2'), url(${SFMonoMediumWOFF}) format('woff'),
       url(${SFMonoMediumTTF}) format('truetype');
@@ -128,6 +139,7 @@ const FontFaces = css`
     font-style: normal;
   }
   @font-face {
+    font-display: swap;
     font-family: 'SF Mono';
     src: url(${SFMonoMediumItalicWOFF2}) format('woff2'),
       url(${SFMonoMediumItalicWOFF}) format('woff'),
@@ -136,6 +148,7 @@ const FontFaces = css`
     font-style: italic;
   }
   @font-face {
+    font-display: swap;
     font-family: 'SF Mono';
     src: url(${SFMonoSemiboldWOFF2}) format('woff2'), url(${SFMonoSemiboldWOFF}) format('woff'),
       url(${SFMonoSemiboldTTF}) format('truetype');
@@ -143,6 +156,7 @@ const FontFaces = css`
     font-style: normal;
   }
   @font-face {
+    font-display: swap;
     font-family: 'SF Mono';
     src: url(${SFMonoSemiboldItalicWOFF2}) format('woff2'),
       url(${SFMonoSemiboldItalicWOFF}) format('woff'),

@@ -18,6 +18,7 @@ const StyledTagsContainer = styled(Main)`
     color: ${colors.lightSlate};
     li {
       font-size: ${fontSizes.xxl};
+      font-display: swap;
 
       a {
         ${mixins.inlineLink};
@@ -25,6 +26,7 @@ const StyledTagsContainer = styled(Main)`
         .count {
           color: ${colors.slate};
           font-family: ${fonts.SFMono};
+          font-display: swap;
           font-size: ${fontSizes.md};
         }
       }

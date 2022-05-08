@@ -38,11 +38,13 @@ const Skill = styled.li`
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.smish};
   color: ${colors.slate};
+  font-display: swap;
   &:before {
     content: '▹';
     position: absolute;
     left: 0;
     color: ${colors.green};
+    font-display: swap;
     font-size: ${fontSizes.sm};
     line-height: 12px;
   }

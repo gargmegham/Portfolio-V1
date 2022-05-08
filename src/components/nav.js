@@ -39,6 +39,7 @@ const StyledNav = styled.nav`
   color: ${colors.lightestSlate};
   font-family: ${fonts.SFMono};
   counter-reset: item 0;
+  font-display: swap;
   z-index: 12;
 `;
 const StyledLogo = styled.div`
@@ -142,11 +143,13 @@ const StyledListItem = styled.li`
   margin: 0 10px;
   position: relative;
   font-size: ${fontSizes.smish};
+  font-display: swap;
   counter-increment: item 1;
   &:before {
     content: '0' counter(item) '.';
     text-align: right;
     color: ${colors.green};
+    font-display: swap;
     font-size: ${fontSizes.xs};
   }
 `;
@@ -157,6 +160,7 @@ const StyledResumeButton = styled.a`
   ${mixins.smallButton};
   margin-left: 10px;
   font-size: ${fontSizes.smish};
+  font-display: swap;
 `;
 
 const DELTA = 5;

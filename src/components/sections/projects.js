@@ -17,6 +17,7 @@ const StyledContainer = styled(Section)`
 const StyledTitle = styled.h4`
   margin: 0 auto;
   font-size: ${fontSizes.h3};
+  font-display: swap;
   ${media.tablet`font-size: 24px;`};
   a {
     display: block;
@@ -28,6 +29,7 @@ const StyledArchiveLink = styled(Link)`
   margin: 0 auto;
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.sm};
+  font-display: swap;
   &:after {
     bottom: 0.1em;
   }
@@ -92,11 +94,13 @@ const StyledIconLink = styled.a`
 `;
 const StyledProjectName = styled.h5`
   margin: 0 0 10px;
+  font-display: swap;
   font-size: ${fontSizes.xxl};
   color: ${colors.lightestSlate};
 `;
 const StyledProjectDescription = styled.div`
   font-size: 17px;
+  font-display: swap;
   color: ${colors.lightSlate};
   a {
     ${mixins.inlineLink};
@@ -114,6 +118,7 @@ const StyledTechList = styled.ul`
   li {
     font-family: ${fonts.SFMono};
     font-size: ${fontSizes.xs};
+    font-display: swap;
     color: ${colors.slate};
     line-height: 1.75;
     margin-right: 15px;

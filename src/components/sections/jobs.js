@@ -70,6 +70,7 @@ const StyledTabButton = styled.button`
   border-left: 2px solid ${colors.lightestNavy};
   text-align: left;
   white-space: nowrap;
+  font-display: swap;
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.smish};
   color: ${props => (props.isActive ? colors.green : colors.slate)};
@@ -135,6 +136,7 @@ const StyledTabContent = styled.div`
 `;
 const StyledJobTitle = styled.h4`
   color: ${colors.lightestSlate};
+  font-display: swap;
   font-size: ${fontSizes.xxl};
   font-weight: 500;
   margin-bottom: 5px;
@@ -146,6 +148,7 @@ const StyledJobDetails = styled.h5`
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.smish};
   font-weight: normal;
+  font-display: swap;
   letter-spacing: 0.05em;
   color: ${colors.lightSlate};
   margin-bottom: 30px;

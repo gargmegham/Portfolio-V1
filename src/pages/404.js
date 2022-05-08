@@ -15,12 +15,14 @@ const StyledTitle = styled.h1`
   color: ${colors.green};
   font-family: ${fonts.SFMono};
   font-size: 12vw;
+  font-display: swap;
   line-height: 1;
   ${media.bigDesktop`font-size: 200px;`}
   ${media.phablet`font-size: 120px;`};
 `;
 const StyledSubtitle = styled.h2`
   font-size: 3vw;
+  font-display: swap;
   font-weight: 400;
   ${media.bigDesktop`font-size: 50px;`};
   ${media.phablet`font-size: 30px;`};
