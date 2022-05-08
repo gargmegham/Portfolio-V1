@@ -33,6 +33,7 @@ const GlobalStyle = createGlobalStyle`
     line-height: 1.3;
     font-family: ${fonts.Calibre};
     font-size: ${fontSizes.xl};
+    font-display: swap;
     ${media.phablet`font-size: ${fontSizes.lg};`}
 
     &.hidden {
