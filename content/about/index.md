@@ -4,20 +4,32 @@ avatar: './me.jpg'
 skills:
   - Python
   - Django
+  - Django Rest Framework
   - JavaScript
-  - React
+  - React.js
+  - Vue.js
+  - Vuetify
+  - Vuex
   - PostgreSQL
+  - MySQL
   - MongoDB
   - Git
   - GCP
+  - AWS
+  - Heroku
+  - AWS
   - HTML
   - CSS
-  - C++
-  - sklearn
+  - C & C++
+  - Computer Vision
+  - OCR
+  - Object Detection
+  - Recommendation Systems
+  - scikit-learn
   - TensorFlow
   - Pandas
   - NumPy
-  - seaborn
+  - Seaborn
   - Spacy
   - NLTK
 ---
