@@ -1,6 +1,6 @@
 ---
 title: DataTable Optimisation In Vue.js
-description: High loading time of datatable input, select etc. components when number of rows were greater than 50.
+description: High loading time of vue datatable component.
 date: '2022-04-08'
 draft: false
 slug: '/blog/optimize-datatable'
