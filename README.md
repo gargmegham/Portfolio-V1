@@ -12,48 +12,36 @@
 <p align="center">
   The portfolio of <a href="https://meghamgarg.netlify.app/" target="_blank">Megham_Garg</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
-## 🚨
 
-Please also note that I did not build this site.
+🚨 Please also note that I did not build this site.
+### Credits:
+[brittanychiang.com](https://brittanychiang.com). Thanks!
 
-### TL;DR
-Yes, you can fork this repo. But please give the original creator proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
 ## 🛠 Installation & Set Up
-
 1. Install the Gatsby CLI
 
    ```sh
    npm install -g gatsby-cli
    ```
-
 2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
-
    ```sh
    nvm install
    ```
-
 3. Install dependencies
-
    ```sh
    yarn
    ```
-
 4. Start the development server
-
    ```sh
    npm start
    ```
-
+   
 ## 🚀 Building and Running for Production
-
 1. Generate a full static production build
-
    ```sh
    npm run build
    ```
-
-1. Preview the site as it will appear once deployed
-
+2. Preview the site as it will appear once deployed
    ```sh
    npm run serve
    ```
