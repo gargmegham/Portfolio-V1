@@ -6,7 +6,12 @@ draft: false
 slug: '/blog/optimize-datatable'
 tags:
   - DataTable
+  - Pagination
+  - Vue Virtual Scroller
+  - UX/UI
   - Vue.js
+  - Performance
+  - Optimization
 ---
 
 ## Recently while working with the Vue DataTable component, Our team was facing some problems.
