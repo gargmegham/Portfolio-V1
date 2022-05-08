@@ -202,13 +202,12 @@ const Jobs = ({ data }) => {
             data.map(({ node }, i) => {
               const { company } = node.frontmatter;
               return (
-                <li key={i}>
+                <li key={i} role="tab">
                   <StyledTabButton
                     isActive={activeTabId === i}
                     onClick={() => setActiveTabId(i)}
                     ref={el => (tabs.current[i] = el)}
                     id={`tab-${i}`}
-                    role="tab"
                     aria-selected={activeTabId === i ? true : false}
                     aria-controls={`panel-${i}`}
                     tabIndex={activeTabId === i ? '0' : '-1'}>
