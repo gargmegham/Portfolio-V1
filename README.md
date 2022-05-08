@@ -14,7 +14,8 @@
 </p>
 
 ### Credits🚨:
-Please also note that I did not build this site. Credits belongs to [brittanychiang.com](https://brittanychiang.com).
+Please also note that the original creator of this design was [brittanychiang.com](https://brittanychiang.com).
+I've improved and added more cool stuff on top of what was already built.
 
 ## 🛠 Installation & Set Up
 1. Install the Gatsby CLI
