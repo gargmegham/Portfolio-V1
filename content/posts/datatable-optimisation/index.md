@@ -45,4 +45,3 @@ tags:
 4. [https://www.debugbear.com/blog/devtools-performance](https://www.debugbear.com/blog/devtools-performance)
 5. https://github.com/Akryum/vue-virtual-scroller
 6. https://github.com/vuejs/vue/issues/6351
-7. 
