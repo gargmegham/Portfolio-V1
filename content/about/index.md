@@ -3,39 +3,27 @@ title: 'About Me'
 avatar: './me.jpg'
 skills:
   - Python
-  - Django
-  - Django Rest Framework
   - JavaScript
+  - Django
   - React.js
   - Vue.js
-  - Vuetify
-  - Vuex
   - PostgreSQL
   - MySQL
   - MongoDB
-  - Git
+  - Git for version control
   - GCP
   - AWS
   - Heroku
-  - C & C++
   - Computer Vision
-  - OCR
+  - Optical Character Recognition
   - Object Detection
   - Recommendation Systems
-  - Automated bots
-  - scikit-learn
-  - TensorFlow
-  - Pandas
-  - NumPy
-  - Seaborn
-  - Spacy
-  - NLTK
 ---
 
-Hello! I'm Megham, a software engineer based in Haryana, IN.
+Hello! I'm Megham, a software engineer based out of Haryana, India.
 
-I enjoy creating things that solve some problems in the world, whether that be websites, data science solutions, or anything in between. My goal is to always build products that are scalable and performant.
+I enjoy creating solutions that help people be more productive in whatever they are aiming at, solutions can be in the form of code, or content. My goal is to always build solutions that are highly scalable, rewarding to use and are speed performant.
 
 Graduated in July 2020 from [Jaypee University](http://www.juit.ac.in/), I have worked on variety of web development and data science projects with multiple MNCs creating impact that reached millions of users across the globe.
 
-Here are a few technologies I've been working with recently:
+Here are a few technologies I've been worked with over the last few years:
