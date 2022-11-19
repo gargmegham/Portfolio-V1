@@ -21,16 +21,16 @@ module.exports = {
       url: 'https://www.linkedin.com/in/megham-garg/',
     },
     {
-      name: 'Kaggle',
-      url: 'https://www.kaggle.com/meghamgarg',
+      name: 'Twitter',
+      url: 'https://twitter.com/garg_megham',
     },
     {
       name: 'Instagram',
       url: 'https://www.instagram.com/meghamgarg/',
     },
     {
-      name: 'GeeksForGeeks',
-      url: 'https://auth.geeksforgeeks.org/user/meghamgarg/',
+      name: 'star',
+      url: 'https://www.upwork.com/freelancers/~0170461d5a03bcee8d',
     },
   ],
 
