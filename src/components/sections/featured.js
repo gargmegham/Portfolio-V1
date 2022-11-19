@@ -220,18 +220,18 @@ const Featured = ({ data }) => {
 
   return (
     <StyledContainer id="projects">
-      <Heading ref={revealTitle}>Some Things I&apos;ve Built</Heading>
+      <Heading ref={revealTitle}>Some things I&apos;ve been working on recently</Heading>
 
       <div>
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover } = frontmatter;
+            const { external, title, tech, cover, testimonial } = frontmatter;
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
                 <StyledContent>
-                  <StyledLabel>Featured Project</StyledLabel>
+                  <StyledLabel>Project Details</StyledLabel>
                   <StyledProjectName>
                     {external ? (
                       <a
@@ -246,6 +246,8 @@ const Featured = ({ data }) => {
                     )}
                   </StyledProjectName>
                   <StyledDescription dangerouslySetInnerHTML={{ __html: html }} />
+                  <StyledLabel>Client Testimonial</StyledLabel>
+                  <StyledDescription dangerouslySetInnerHTML={{ __html: testimonial }} />
                   {tech && (
                     <StyledTechList>
                       {tech.map((tech, i) => (
@@ -254,15 +256,6 @@ const Featured = ({ data }) => {
                     </StyledTechList>
                   )}
                   <StyledLinkWrapper>
-                    {github && (
-                      <a
-                        href={github}
-                        target="_blank"
-                        rel="nofollow noopener noreferrer"
-                        aria-label="GitHub Link">
-                        <FormattedIcon name="GitHub" />
-                      </a>
-                    )}
                     {external && (
                       <a
                         href={external}
@@ -276,7 +269,7 @@ const Featured = ({ data }) => {
                 </StyledContent>
 
                 <StyledImgContainer
-                  href={external ? external : github ? github : '#'}
+                  href={external}
                   target="_blank"
                   rel="nofollow noopener noreferrer">
                   <StyledFeaturedImg fluid={cover.childImageSharp.fluid} alt={title} />
