@@ -246,8 +246,6 @@ const Featured = ({ data }) => {
                     )}
                   </StyledProjectName>
                   <StyledDescription dangerouslySetInnerHTML={{ __html: html }} />
-                  <StyledLabel>Client Testimonial</StyledLabel>
-                  <StyledDescription>{testimonial}</StyledDescription>
                   {tech && (
                     <StyledTechList>
                       {tech.map((tech, i) => (
