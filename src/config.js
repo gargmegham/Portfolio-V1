@@ -29,7 +29,7 @@ module.exports = {
       url: 'https://www.instagram.com/meghamgarg/',
     },
     {
-      name: 'star',
+      name: 'Star',
       url: 'https://www.upwork.com/freelancers/~0170461d5a03bcee8d',
     },
   ],
