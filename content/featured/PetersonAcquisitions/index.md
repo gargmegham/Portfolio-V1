@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '4'
 title: 'Peterson Acquisitions'
 cover: './petersonAcquisitions.png'
 external: 'https://petersonclient.com/'
