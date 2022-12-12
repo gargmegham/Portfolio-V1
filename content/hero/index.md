@@ -1,9 +1,9 @@
 ---
 title: 'Hi, my name is'
 name: 'Megham Garg'
-subtitle: 'I like to build solutions and learn new skills.'
+subtitle: 'I like to build solutions as a pro problem solver and some of his favourite things to do into are playing sports, building products and hunting skills.'
 buttonText: 'Get In Touch'
 ---
 
 
-I'm currently working as a freelance developer with multiple firms from all across the globe. TranZact, ComplianceOn, Mortle are some of my clients. I'm also in the process of building my own products that people can use to increase their productivity. Next thing I want to get into and learn is AR gadgets.
+I provide freelance software development services for the living where me and my small team helps small sized startups who are looking to launch the MVP within an year.
