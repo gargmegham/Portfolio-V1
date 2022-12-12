@@ -1,7 +1,7 @@
 ---
 title: 'Hi, my name is'
 name: 'Megham Garg'
-subtitle: 'I provide freelance software development services where me and my small team help small sized startups convert their idea as a MVP within 1 year.'
+subtitle: 'I provide freelance software development services where me and my team help small startups bring their idea to life with as a MVP within 1 year.'
 buttonText: 'Get In Touch'
 ---
 
