@@ -1,6 +1,6 @@
 ---
-title: 'Get In Touch and Hire for your projects or Job role'
-buttonText: 'Say Hello'
+title: 'If you need my help feel free to drop an email and I'll reply within a day 96% of the times.'
+buttonText: 'Need my help?'
 ---
 
-I'm actively looking for new opportunities, my inbox is always open. Whether you have a question, a project or just want to say hi, I'll try my best to get back to you!
+I'm actively looking for interesting projects, and my inbox is always open. So whether you have a question, a project or just want to say hi, I'm all ears.
