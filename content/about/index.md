@@ -15,15 +15,14 @@ skills:
   - AWS
   - Heroku
   - Computer Vision
-  - Optical Character Recognition
-  - Object Detection
   - Recommendation Systems
+  - NLP
 ---
 
-Hello! I'm Megham, a software engineer based out of Haryana, India.
+I'm based out of Haryana, India.
 
-I enjoy creating solutions that help people be more productive in whatever they are aiming at, solutions can be in the form of code, or content. My goal is to always build solutions that are highly scalable, rewarding to use and are speed performant.
+I enjoy creating solutions that help people be more productive in whatever they like doing and leave the grunt work for the software. The solutions that I build are mostly in the form of code, or content. My goal is to build solutions that are scalable, easy to use and are rewarding to build for me.
 
-Graduated in July 2020 from [Jaypee University](http://www.juit.ac.in/), I have worked on variety of web development and data science projects with multiple MNCs creating impact that reached millions of users across the globe.
+Graduated in July 2020 from [Jaypee University](http://www.juit.ac.in/), I have worked on variety of Web Dev, ML and Data Science related projects.
 
-Here are a few technologies I've been worked with over the last few years:
+Here are a few technologies I've been working with over the last few years:
