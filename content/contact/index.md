@@ -1,5 +1,5 @@
 ---
-title: 'If you need my help feel free to drop an email and I'll reply within a day 96% of the times.'
+title: 'If you need my help feel free to drop an email and I will reply within a day 96% of the times.'
 buttonText: 'Need my help?'
 ---
 
