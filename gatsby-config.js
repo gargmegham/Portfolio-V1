@@ -106,5 +106,11 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'G-EVTMPSBFF5',
+      },
+    },
   ],
 };
