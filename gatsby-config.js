@@ -109,7 +109,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'G-EVTMPSBFF5',
+        trackingIds: ['G-EVTMPSBFF5'],
+      },
+      pluginConfig: {
+        head: true
       },
     },
   ],
