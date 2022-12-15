@@ -5,6 +5,7 @@ import { navLinks } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media } from '@styles';
 const { colors, fontSizes, fonts } = theme;
+import { trackCustomEvent } from "gatsby-plugin-google-analytics"
 
 const StyledContainer = styled.div`
   position: fixed;
@@ -76,7 +77,7 @@ const NavLink = styled(Link)`
   padding: 3px 20px 20px;
   width: 100%;
 `;
-const ResumeLink = styled.a`
+const BlogLink = styled.a`
   ${mixins.bigButton};
   padding: 18px 50px;
   margin: 10% auto 0;
@@ -93,6 +94,13 @@ const Menu = ({ menuOpen, toggleMenu }) => {
       toggleMenu();
     }
   };
+  const clicked = (name) => {
+    trackCustomEvent({
+      category: "Active",
+      action: "click",
+      label: `Menu ${name}`,
+    })
+  };
 
   return (
     <StyledContainer
@@ -106,13 +114,13 @@ const Menu = ({ menuOpen, toggleMenu }) => {
             {navLinks &&
               navLinks.map(({ url, name }, i) => (
                 <NavListItem key={i}>
-                  <NavLink to={url}>{name}</NavLink>
+                  <NavLink to={url} onClick={() => clicked(name)}>{name}</NavLink>
                 </NavListItem>
               ))}
           </NavList>
-          <ResumeLink href="/resume.pdf" target="_blank" rel="nofollow noopener noreferrer">
-            Resume
-          </ResumeLink>
+          <BlogLink onClick={() => clicked('Blog')} href="/blog" target="_blank" rel="nofollow noopener noreferrer">
+            Blog
+          </BlogLink>
         </NavLinks>
       </Sidebar>
     </StyledContainer>

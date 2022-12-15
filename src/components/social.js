@@ -6,6 +6,7 @@ import { FormattedIcon } from '@components/icons';
 import styled from 'styled-components';
 import { theme } from '@styles';
 const { colors } = theme;
+import { trackCustomEvent } from "gatsby-plugin-google-analytics";
 
 const StyledList = styled.ul`
   display: flex;
@@ -40,24 +41,34 @@ const StyledLink = styled.a`
   }
 `;
 
-const Social = ({ isHome }) => (
-  <Side isHome={isHome} orientation="left">
-    <StyledList>
-      {socialMedia &&
-        socialMedia.map(({ url, name }, i) => (
-          <li key={i}>
-            <StyledLink
-              href={url}
-              target="_blank"
-              rel="nofollow noopener noreferrer"
-              aria-label={name}>
-              <FormattedIcon name={name} />
-            </StyledLink>
-          </li>
-        ))}
-    </StyledList>
-  </Side>
-);
+const Social = ({ isHome }) => {
+  const track = (name) => {
+    trackCustomEvent({
+      category: "Active",
+      action: "click",
+      label: `Social ${name}`,
+    })
+  };
+  return (
+    <Side isHome={isHome} orientation="left">
+      <StyledList>
+        {socialMedia &&
+          socialMedia.map(({ url, name }, i) => (
+            <li key={i}>
+              <StyledLink
+                onClick={() => track(name)}
+                href={url}
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label={name}>
+                <FormattedIcon name={name} />
+              </StyledLink>
+            </li>
+          ))}
+      </StyledList>
+    </Side>
+  )
+};
 
 Social.propTypes = {
   isHome: PropTypes.bool,

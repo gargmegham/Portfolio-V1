@@ -5,6 +5,7 @@ import { email } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section } from '@styles';
 const { colors, fontSizes, fonts, navDelay, loaderDelay } = theme;
+import { trackCustomEvent } from "gatsby-plugin-google-analytics";
 
 const StyledContainer = styled(Section)`
   ${mixins.flexCenter};

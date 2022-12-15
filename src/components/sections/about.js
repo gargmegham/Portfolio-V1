@@ -6,6 +6,7 @@ import { srConfig, github } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
+import { trackCustomEvent } from "gatsby-plugin-google-analytics";
 
 const StyledContainer = styled(Section)`
   position: relative;

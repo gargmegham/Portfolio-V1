@@ -55,9 +55,9 @@ const Layout = ({ children, location }) => {
 
   useEffect(() => {
     trackCustomEvent({
-      category: "Layout",
+      category: "Passive",
       action: "view",
-      label: "Portfolio Landing Page",
+      label: "Landing Page",
     })
     if (isLoading) {
       return;

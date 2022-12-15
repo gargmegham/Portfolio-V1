@@ -40,16 +40,12 @@ module.exports = {
       url: '/#about',
     },
     {
-      name: 'Experience',
-      url: '/#jobs',
-    },
-    {
       name: 'Work',
       url: '/#projects',
     },
     {
-      name: 'Blog',
-      url: '/blog',
+      name: 'Experience',
+      url: '/#jobs',
     },
     {
       name: 'Contact',
