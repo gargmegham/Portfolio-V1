@@ -5,6 +5,7 @@ import { srConfig, email } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
+import trackGaEvent from "@tracking";;
 
 const StyledContainer = styled(Section)`
   text-align: center;
@@ -55,12 +56,9 @@ const Contact = ({ data }) => {
   return (
     <StyledContainer id="contact" ref={revealContainer}>
       <StyledHeading>What&apos;s Next?</StyledHeading>
-
       <StyledTitle>{title}</StyledTitle>
-
       <div dangerouslySetInnerHTML={{ __html: html }} />
-
-      <StyledEmailLink href={`mailto:${email}`} target="_blank" rel="nofollow noopener noreferrer">
+      <StyledEmailLink onClick={() => trackGaEvent('click', `CTA ${buttonText}`)} href={`mailto:${email}`} target="_blank" rel="nofollow noopener noreferrer">
         {buttonText}
       </StyledEmailLink>
     </StyledContainer>

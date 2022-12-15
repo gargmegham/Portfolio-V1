@@ -7,6 +7,7 @@ import { FormattedIcon } from '@components/icons';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
+import trackGaEvent from "@tracking";;
 
 const StyledContainer = styled(Section)`
   ${mixins.flexCenter};

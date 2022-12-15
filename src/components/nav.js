@@ -10,6 +10,7 @@ import { IconLogo } from '@components/icons';
 import styled from 'styled-components';
 import { theme, mixins, media } from '@styles';
 const { colors, fontSizes, fonts, loaderDelay } = theme;
+import trackGaEvent from "@tracking";
 
 const StyledContainer = styled.header`
   ${mixins.flexBetween};
@@ -156,7 +157,7 @@ const StyledListItem = styled.li`
 const StyledListLink = styled(Link)`
   padding: 12px 10px;
 `;
-const StyledResumeButton = styled.a`
+const StyledBlogButton = styled.a`
   ${mixins.smallButton};
   margin-left: 10px;
   font-size: ${fontSizes.smish};
@@ -286,7 +287,7 @@ class Nav extends Component {
                       <StyledListItem
                         key={i}
                         style={{ transitionDelay: `${isHome ? i * 100 : 0}ms` }}>
-                        <StyledListLink to={url}>{name}</StyledListLink>
+                        <StyledListLink onClick={() => trackGaEvent("click", `Nav ${name}`)} to={url}>{name}</StyledListLink>
                       </StyledListItem>
                     </CSSTransition>
                   ))}
@@ -297,12 +298,13 @@ class Nav extends Component {
               {isMounted && (
                 <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                   <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
-                    <StyledResumeButton
-                      href="/resume.pdf"
+                    <StyledBlogButton
+                      onClick={() => trackGaEvent("click", 'Nav Blog')}
+                      href="/blog"
                       target="_blank"
                       rel="nofollow noopener noreferrer">
-                      Resume
-                    </StyledResumeButton>
+                      Blog
+                    </StyledBlogButton>
                   </div>
                 </CSSTransition>
               )}

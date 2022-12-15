@@ -5,6 +5,7 @@ import { socialMedia } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media } from '@styles';
 const { colors, fontSizes, fonts } = theme;
+import trackGaEvent from "@tracking";
 
 const StyledContainer = styled.footer`
   ${mixins.flexCenter};
@@ -62,27 +63,6 @@ const StyledGitHubInfo = styled.div`
 `;
 
 const Footer = () => {
-  const [githubInfo, setGitHubInfo] = useState({
-    stars: null,
-    forks: null,
-  });
-
-  useEffect(() => {
-    if (process.env.NODE_ENV !== 'production') {
-      return;
-    }
-    fetch('https://api.github.com/repos/bchiang7/v4')
-      .then(response => response.json())
-      .then(json => {
-        const { stargazers_count, forks_count } = json;
-        setGitHubInfo({
-          stars: stargazers_count,
-          forks: forks_count,
-        });
-      })
-      .catch(e => console.error(e));
-  }, []);
-
   return (
     <StyledContainer>
       <StyledSocial>
@@ -91,6 +71,7 @@ const Footer = () => {
             socialMedia.map(({ name, url }, i) => (
               <li key={i}>
                 <StyledSocialLink
+                  onClick={() => trackGaEvent("click", `Social Footer ${name}`)}
                   href={url}
                   target="_blank"
                   rel="nofollow noopener noreferrer"
@@ -105,8 +86,6 @@ const Footer = () => {
   );
 };
 
-Footer.propTypes = {
-  githubInfo: PropTypes.object,
-};
+Footer.propTypes = {};
 
 export default Footer;

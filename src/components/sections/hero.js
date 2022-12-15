@@ -5,6 +5,7 @@ import { email } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section } from '@styles';
 const { colors, fontSizes, fonts, navDelay, loaderDelay } = theme;
+import trackGaEvent from "@tracking";;
 
 const StyledContainer = styled(Section)`
   ${mixins.flexCenter};

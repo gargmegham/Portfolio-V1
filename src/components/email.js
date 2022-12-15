@@ -5,6 +5,7 @@ import { Side } from '@components';
 import styled from 'styled-components';
 import { theme } from '@styles';
 const { colors, fontSizes, fonts } = theme;
+import trackGaEvent from "@tracking";
 
 const StyledLinkWrapper = styled.div`
   display: flex;
@@ -35,13 +36,15 @@ const StyledEmailLink = styled.a`
   }
 `;
 
-const Email = ({ isHome }) => (
-  <Side isHome={isHome} orientation="right">
-    <StyledLinkWrapper>
-      <StyledEmailLink href={`mailto:${email}`}>{email}</StyledEmailLink>
-    </StyledLinkWrapper>
-  </Side>
-);
+const Email = ({ isHome }) => {
+  return (
+    <Side isHome={isHome} orientation="right">
+      <StyledLinkWrapper>
+        <StyledEmailLink onClick={() => trackGaEvent("click", "Email On Side")} href={`mailto:${email}`}>{email}</StyledEmailLink>
+      </StyledLinkWrapper>
+    </Side>
+  );
+};
 Email.propTypes = {
   isHome: PropTypes.bool,
 };
