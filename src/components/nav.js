@@ -10,7 +10,7 @@ import { IconLogo } from '@components/icons';
 import styled from 'styled-components';
 import { theme, mixins, media } from '@styles';
 const { colors, fontSizes, fonts, loaderDelay } = theme;
-import { trackCustomEvent } from "gatsby-plugin-google-analytics"
+import trackGaEvent from "@tracking";
 
 const StyledContainer = styled.header`
   ${mixins.flexBetween};
@@ -241,14 +241,6 @@ class Nav extends Component {
     const fadeClass = isHome ? 'fade' : '';
     const fadeDownClass = isHome ? 'fadedown' : '';
 
-    const track = (name) => {
-      trackCustomEvent({
-        category: "Active",
-        action: "click",
-        label: `Nav ${name}`,
-      })
-    };
-
     return (
       <StyledContainer scrollDirection={scrollDirection}>
         <Helmet>
@@ -295,7 +287,7 @@ class Nav extends Component {
                       <StyledListItem
                         key={i}
                         style={{ transitionDelay: `${isHome ? i * 100 : 0}ms` }}>
-                        <StyledListLink  onClick={() => track(name)} to={url}>{name}</StyledListLink>
+                        <StyledListLink onClick={() => trackGaEvent("click", `Nav ${name}`)} to={url}>{name}</StyledListLink>
                       </StyledListItem>
                     </CSSTransition>
                   ))}
@@ -307,7 +299,7 @@ class Nav extends Component {
                 <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                   <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
                     <StyledBlogButton
-                      onClick={() => track('Blog')}
+                      onClick={() => trackGaEvent("click", 'Nav Blog')}
                       href="/blog"
                       target="_blank"
                       rel="nofollow noopener noreferrer">

@@ -5,7 +5,7 @@ import { navLinks } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media } from '@styles';
 const { colors, fontSizes, fonts } = theme;
-import { trackCustomEvent } from "gatsby-plugin-google-analytics"
+import trackGaEvent from "@tracking";
 
 const StyledContainer = styled.div`
   position: fixed;
@@ -94,13 +94,6 @@ const Menu = ({ menuOpen, toggleMenu }) => {
       toggleMenu();
     }
   };
-  const clicked = (name) => {
-    trackCustomEvent({
-      category: "Active",
-      action: "click",
-      label: `Menu ${name}`,
-    })
-  };
 
   return (
     <StyledContainer
@@ -114,7 +107,11 @@ const Menu = ({ menuOpen, toggleMenu }) => {
             {navLinks &&
               navLinks.map(({ url, name }, i) => (
                 <NavListItem key={i}>
-                  <NavLink to={url} onClick={() => clicked(name)}>{name}</NavLink>
+                  <NavLink to={url} onClick={() =>
+                    trackGaEvent(
+                      "click",
+                      `Menu ${name}`,
+                    )}>{name}</NavLink>
                 </NavListItem>
               ))}
           </NavList>

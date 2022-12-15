@@ -5,7 +5,7 @@ import { Side } from '@components';
 import styled from 'styled-components';
 import { theme } from '@styles';
 const { colors, fontSizes, fonts } = theme;
-import { trackCustomEvent } from "gatsby-plugin-google-analytics";
+import trackGaEvent from "@tracking";
 
 const StyledLinkWrapper = styled.div`
   display: flex;
@@ -37,17 +37,10 @@ const StyledEmailLink = styled.a`
 `;
 
 const Email = ({ isHome }) => {
-  const clicked = () => {
-    trackCustomEvent({
-      category: "Active",
-      action: "click",
-      label: "Email On Side",
-    })
-  };
   return (
     <Side isHome={isHome} orientation="right">
       <StyledLinkWrapper>
-        <StyledEmailLink onClick={clicked} href={`mailto:${email}`}>{email}</StyledEmailLink>
+        <StyledEmailLink onClick={() => trackGaEvent("click", "Email On Side")} href={`mailto:${email}`}>{email}</StyledEmailLink>
       </StyledLinkWrapper>
     </Side>
   );

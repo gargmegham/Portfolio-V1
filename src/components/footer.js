@@ -5,7 +5,7 @@ import { socialMedia } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media } from '@styles';
 const { colors, fontSizes, fonts } = theme;
-import { trackCustomEvent } from "gatsby-plugin-google-analytics";
+import trackGaEvent from "@tracking";
 
 const StyledContainer = styled.footer`
   ${mixins.flexCenter};
@@ -63,13 +63,6 @@ const StyledGitHubInfo = styled.div`
 `;
 
 const Footer = () => {
-  const clicked = (name) => {
-    trackCustomEvent({
-      category: "Active",
-      action: "click",
-      label: `Social Footer ${name}`,
-    })
-  };
   return (
     <StyledContainer>
       <StyledSocial>
@@ -78,7 +71,7 @@ const Footer = () => {
             socialMedia.map(({ name, url }, i) => (
               <li key={i}>
                 <StyledSocialLink
-                  onClick={() => clicked(name)}
+                  onClick={() => trackGaEvent("click", `Social Footer ${name}`)}
                   href={url}
                   target="_blank"
                   rel="nofollow noopener noreferrer"
