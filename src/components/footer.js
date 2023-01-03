@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormattedIcon, IconTerms, IconPrivacy, IconRefund } from '@components/icons';
+import { FormattedIcon, IconDocuments } from '@components/icons';
 import { socialMedia } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media } from '@styles';
@@ -61,37 +61,37 @@ const Footer = () => (
     <StyledSocial>
       <StyledSocialList>
         {socialMedia &&
-            socialMedia.map(({ name, url }, i) => (
-              <li key={i}>
-                <StyledSocialLink
-                  onClick={() => trackGaEvent('click', `Social Footer ${name}`)}
-                  href={url}
-                  target="_blank"
-                  rel="nofollow noopener noreferrer"
-                  aria-label={name}>
-                  <FormattedIcon name={name} />
-                </StyledSocialLink>
-              </li>
-            ))}
+          socialMedia.map(({ name, url }, i) => (
+            <li key={i}>
+              <StyledSocialLink
+                onClick={() => trackGaEvent('click', `Social Footer ${name}`)}
+                href={url}
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label={name}>
+                <FormattedIcon name={name} />
+              </StyledSocialLink>
+            </li>
+          ))}
       </StyledSocialList>
     </StyledSocial>
     <StyledFooter tabindex="-1">
       <div>
         <a href="/t&c" target="_blank" rel="nofollow noopener noreferrer">
           <span>
-            <IconTerms name="terms and conditions" />
+            <IconDocuments name="terms and conditions" />
             <span>Terms & Conditions</span>
           </span>
         </a>
         <a href="/privacy-policy" target="_blank" rel="nofollow noopener noreferrer">
           <span>
-            <IconPrivacy name="privacy" />
+            <IconDocuments name="privacy" />
             <span>Privacy Policy</span>
           </span>
         </a>
         <a href="/refund-policy" target="_blank" rel="nofollow noopener noreferrer">
           <span>
-            <IconRefund name="privacy" />
+            <IconDocuments name="privacy" />
             <span>Refund & Cancellation</span>
           </span>
         </a>
