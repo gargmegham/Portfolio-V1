@@ -2,58 +2,14 @@
 title: Refund And Cancellation Policy
 ---
 
-## Recently while working with the Vue DataTable component, and was facing problems related to performance and frequent page crashes.
+# Cancellation and Refund Policy
 
-# Key Problems:
+The terms hereof shall constitute Interweave Consulting Private Limited’s (“Company”) cancellation and refund policy in relation to the Solutions rendered on the Website (“Cancellation and Refund Policy”). Capitalized terms not defined herein shall have the meaning ascribed to them in the Terms of Use.
 
-1. Initial load time was very high.
-2. The input data grid was responding very slowly on some data change by user.
-3. The web page was crashing quite often due to memory error.
+# Cancellation and Refunds by the Company
 
-# Target To Achieve:
+Please note that there may be certain orders that we are unable to accept and must cancel. We reserve the right, at our sole discretion, to refuse or cancel any order for any reason, without any claims or liability to pay finance charges or interest on the amount. Some situations that may result in your order being canceled include but are not limited to inaccuracies or errors in Solutions or pricing information, technical or technological problems or problems identified in relation to credit / debit fraud. We may also require additional verifications or information before accepting any order. We will contact you if all or any portion of your order is canceled or if additional information is required to accept your order. If your order is cancelled by the Company after your credit / debit card has been charged, the said amount will be refunded to that credit / debit card account.
 
-- Explore possible options that can be used to modify the current component or replace the current component.
-- The end user experience should be improved in terms of time lag in the operations they perform on document creation/edit screen.
-- Examples: adding new item, quantity change, date change, unit change etc.
+# Cancellation by you
 
-## Here is what i found during my Root Cause Analysis:
-
-- High initial load time due to a lot of nested HTML elements being rendered on the screen. (Nested upto 36 levels) (Grid could be as high as 1000 Columns \* 16 Rows)
-- Processing these many HTML elements was consuming a lot of chrome memory, and was shooting CPU utilisation because of the Vue reactivity handling.
-- There were a lot of bad code written on that Vue component, like mutating props directly, mutating state properties directly, use of computed properties to render data in HTML while props could have been used, redundant rerendering of Vue components on computed property change.
-
-## Solutions That I Found & Tried
-
-- Pagination
-  - Reduced average initial load time by 80% and subsequent input reactivity time by around 50%
-  - This lead to smaller array that needs to be rendered by the browser
-- Vue virtual scroller
-  - This also reduced initial load time by 80%
-  - But increased subsequent input reactivity time multifold.
-  - Thus degrading the performance and experience for scrolling inside the data table.
-  - This could have been useful if the table was read only, but since it contained a lot of input, select, datetime fields, this turned out to be worse than the original component.
-- Made the table read only and opened the row to in dialog to edit when the user clicks the pencil icon.
-  - This was the most performant as this reduced initial load time by around 85% and subsequent input reactivity time by close to 75%.
-  - This removed the nested elements issue and the removed the burden of handling reactivity of computed properties in component from the chrome.
-  - But this resulted in bad user experience since they had to click once to open the dialog and then once to save that row.
-
-## New Learnings
-
-- Vue Performance measure tool `Vue.config.performance = true`
-- **Init:** Time taken in `beforeCreated` and `created` of vue lifecycle.
-- **Render:** Time taken to create the instance in javascript.
-- **Patch:** Time taken to render in DOM.
-
-# Attaching Chrome Performance Profile (with 178 Items)
-
-- Before optimisatioon [Profile-20220421T102956.json](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e94994cd-859f-455d-9fa0-836d8a19e629/Profile-20220421T102956.json)
-- After optimisation [Profile-20220421T120813.json](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e265a86e-ddb6-40be-8ef4-d670df4f4eaf/Profile-20220421T120813.json)
-
-## Research Source:
-
-1. [https://blog.logrocket.com/rendering-large-datasets-vue-js/](https://blog.logrocket.com/rendering-large-datasets-vue-js/)
-2. [https://medium.com/@brockreece/unlock-performance-tracing-in-vue-3b2c8f619cdc](https://medium.com/@brockreece/unlock-performance-tracing-in-vue-3b2c8f619cdc)
-3. [https://github.com/vuejs/vue/issues/2000](https://github.com/vuejs/vue/issues/2000#issuecomment-163658945)
-4. [https://www.debugbear.com/blog/devtools-performance](https://www.debugbear.com/blog/devtools-performance)
-5. https://github.com/Akryum/vue-virtual-scroller
-6. https://github.com/vuejs/vue/issues/6351
+You agree and acknowledge that unless stated otherwise you are not entitled to cancel any orders made by you on this Website. In the event you subscribe to any Solutions, the same may be cancelled by you one month prior to the provision of the Solutions, in such a case you will be refunded in the entire amount after deducting any bank charges that may have been applicable. Further during a period between one month and 14 days from when the Solutions are to be provided, if there is a cancellation request received, we may at our discretion refund 50% of the amount, after deducting any bank charges that may have been applicable, to you. A period of 14 days before the Solutions to be provided no request for cancelation will not be entertained by the Company.
