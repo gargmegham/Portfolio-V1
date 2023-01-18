@@ -6,7 +6,7 @@ title: Privacy Policy
 
 This notice applies across all websites that we own and operate and all services we provide, including our online and mobile accounting and financial services products, and any other apps or services we may offer (our “services”)
 
-When we say “personal data”, we mean information that would identify you, like your name, email, address, telephone number, bank account details, payment information and so on. The same would apply to information that could identify other users in your teams that are shared with TranZact.
+When we say “personal data”, we mean information that would identify you, like your name, email, address, telephone number, bank account details, payment information and so on. The same would apply to information that could identify other users in your teams that are shared with Agroha Solutions.
 
 If you can't be identified (for example, when personal data has been aggregated and anonymised), the information wouldn't be personal data anymore, and this notice doesn't apply.
 
@@ -14,7 +14,7 @@ We may need to update this notice from time to time. When a significant change i
 
 # Clause 1: Who are “we”?
 
-When we refer to “we” (or “our” or “us'), that means Megham Garg and all its wholly owned subsidiaries, including the primary operating entity, Megham Garg Our headquarters are in Mumbai but we operate and have offices all over the world. Address details for all TranZact offices are available on our “Contact Us” page.
+When we refer to “we” (or “our” or “us'), that means Agroha Solutions and all its wholly owned subsidiaries, including the primary operating entity, Agroha Solutions Our headquarters are in Jagadhri but we operate and have offices all over the world. Address details for all Agroha Solutions offices are available on our “Contact Us” page.
 
 # Clause 2: Our Principles of Data Protection
 
@@ -48,7 +48,7 @@ Where we collect personal data, we'll only process it:
 
 If we don't collect your personal data, we may be unable to provide you with all our services, and some functions and features on our websites may not be available to you.
 
-If you're someone who doesn't have a relationship with us, but believe that a TranZact subscriber has entered your personal data into our websites or services, you'll need to contact that TranZact subscriber for any questions you have about your personal data (including where you want to access, correct, amend, or request that the user delete, your personal data).
+If you're someone who doesn't have a relationship with us, but believe that a Agroha Solutions subscriber has entered your personal data into our websites or services, you'll need to contact that Agroha Solutions subscriber for any questions you have about your personal data (including where you want to access, correct, amend, or request that the user delete, your personal data).
 
 # Clause 4: How we use your data
 
@@ -58,7 +58,7 @@ First and foremost, we use your personal data to operate our websites and provid
 
    - providing you with information you've requested from us (like training or education materials) or information we are required to send to you;
    - operational communications, like changes to our websites and services, security updates, or assistance with using our websites and services;
-   - marketing communications (about TranZact or another product or service we think you might be interested in) in accordance with your marketing preferences;
+   - marketing communications (about Agroha Solutions or another product or service we think you might be interested in) in accordance with your marketing preferences;
    - asking you for feedback or to take part in any research we are conducting (which we may engage a third party to assist with).
 
 2. To help you share information with those whom you want to share information with and to assist you in making statutory submissions.
@@ -77,7 +77,7 @@ First and foremost, we use your personal data to operate our websites and provid
 
 There will be times when we need to share your personal identifiable data such as name, email id, contact number with third parties. We will take consent from you via our online support chat or email before sharing your personal identifiable data with anyone. We will only disclose your personal data to:
 
-- other companies in the TranZact group of companies;
+- other companies in the Agroha Solutions group of companies;
 
 - third party service providers and partners who assist and enable us to use the personal data to, for example, support delivery of or provide functionality on the website or services, or to market or promote our goods and services to you;
 
