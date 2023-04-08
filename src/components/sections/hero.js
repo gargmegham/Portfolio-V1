@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import { email } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section } from '@styles';
 const { colors, fontSizes, fonts, navDelay, loaderDelay } = theme;
-import trackGaEvent from "@tracking";;
 
 const StyledContainer = styled(Section)`
   ${mixins.flexCenter};
@@ -87,7 +85,9 @@ const Hero = ({ data }) => {
   );
   const five = () => (
     <div style={{ transitionDelay: '500ms' }}>
-      <StyledEmailLink href={`mailto:${email}`}>Get In Touch</StyledEmailLink>
+      <StyledEmailLink href={'https://calendly.com/megham-garg/session-with-megham'}>
+        Get In Touch
+      </StyledEmailLink>
     </div>
   );
 

@@ -1,8 +1,8 @@
 ---
 title: 'Hi, my name is'
 name: 'Megham Garg'
-subtitle: 'I help small startups bring their ideas to life, by launching their MVP within 1 year.'
+subtitle: 'I help startups bring their ideas to life, by helping them launch their MVP.'
 buttonText: 'Say Hi'
 ---
 
-Some of my favourite things to do are playing sports, building products and hunting skills.
+I’ve collaborated with numerous funded startups, including TranZact, Paxcom, and FortifyData, to deliver web based solutions that surpassed customer expectations.
