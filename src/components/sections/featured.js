@@ -7,7 +7,6 @@ import { FormattedIcon } from '@components/icons';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
-import trackGaEvent from "@tracking";;
 
 const StyledContainer = styled(Section)`
   ${mixins.flexCenter};
@@ -68,6 +67,9 @@ const StyledDescription = styled.div`
   }
   a {
     ${mixins.inlineLink};
+  }
+  blockquote p {
+    font-size: ${fontSizes.sm};
   }
 `;
 const StyledTechList = styled.ul`
@@ -227,8 +229,7 @@ const Featured = ({ data }) => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, cover, testimonial } = frontmatter;
-
+            const { external, title, tech, cover } = frontmatter;
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
                 <StyledContent>

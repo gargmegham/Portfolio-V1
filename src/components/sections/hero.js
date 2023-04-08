@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import { email } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section } from '@styles';
 const { colors, fontSizes, fonts, navDelay, loaderDelay } = theme;
@@ -25,8 +26,18 @@ const StyledOverline = styled.h1`
   ${media.desktop`font-size: ${fontSizes.sm};`};
   ${media.tablet`font-size: ${fontSizes.smish};`};
 `;
+const StyledTitle = styled.h2`
+  font-size: 80px;
+  line-height: 1.1;
+  font-display: swap;
+  margin: 0;
+  ${media.desktop`font-size: 70px;`};
+  ${media.tablet`font-size: 60px;`};
+  ${media.phablet`font-size: 50px;`};
+  ${media.phone`font-size: 40px;`};
+`;
 const StyledSubtitle = styled.h3`
-  font-size: 75px;
+  font-size: 80px;
   line-height: 1.1;
   color: ${colors.slate};
   font-display: swap;
@@ -59,9 +70,10 @@ const Hero = ({ data }) => {
   const { frontmatter, html } = data[0].node;
 
   const one = () => (
-    <StyledOverline style={{ transitionDelay: '100ms' }}>
-      {frontmatter.title} {frontmatter.name}.
-    </StyledOverline>
+    <StyledOverline style={{ transitionDelay: '100ms' }}>{frontmatter.title}</StyledOverline>
+  );
+  const two = () => (
+    <StyledTitle style={{ transitionDelay: '200ms' }}>{frontmatter.name}.</StyledTitle>
   );
   const three = () => (
     <StyledSubtitle style={{ transitionDelay: '300ms' }}>{frontmatter.subtitle}</StyledSubtitle>
@@ -74,13 +86,11 @@ const Hero = ({ data }) => {
   );
   const five = () => (
     <div style={{ transitionDelay: '500ms' }}>
-      <StyledEmailLink href={'https://calendly.com/megham-garg/session-with-megham'}>
-        Get In Touch
-      </StyledEmailLink>
+      <StyledEmailLink href={`mailto:${email}`}>Get In Touch</StyledEmailLink>
     </div>
   );
 
-  const items = [one, three, four, five];
+  const items = [one, two, three, four, five];
 
   return (
     <StyledContainer>
