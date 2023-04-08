@@ -1,10 +1,10 @@
 module.exports = {
   siteTitle: 'Megham Garg | Software Engineer',
   siteDescription:
-    'Megham Garg is a software engineer based in Haryana, India who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+    'Megham Garg is a software engineer based in Haryana, India who is solving problems by creating software solutions.',
   siteKeywords:
-    'Megham Garg, software engineer, front-end engineer, web developer, javascript, python, django, NLP, data science, machine learning',
-  siteUrl: 'https://meghamgarg.netlify.app/',
+    'megham garg, software developer, javascript, vue, react, python, django, ai, data science, machine learning',
+  siteUrl: 'https://meghamgarg.com/',
   siteLanguage: 'en_US',
   name: 'Megham Garg',
   location: 'Haryana, India',
@@ -25,7 +25,6 @@ module.exports = {
       url: 'https://www.upwork.com/freelancers/~0170461d5a03bcee8d',
     },
   ],
-
   navLinks: [
     {
       name: 'About',
@@ -44,15 +43,12 @@ module.exports = {
       url: '/#contact',
     },
   ],
-
   navHeight: 100,
-
   colors: {
     green: '#64ffda',
     navy: '#0a192f',
     darkNavy: '#020c1b',
   },
-
   srConfig: (delay = 200) => ({
     origin: 'bottom',
     distance: '20px',

@@ -25,18 +25,8 @@ const StyledOverline = styled.h1`
   ${media.desktop`font-size: ${fontSizes.sm};`};
   ${media.tablet`font-size: ${fontSizes.smish};`};
 `;
-const StyledTitle = styled.h2`
-  font-size: 80px;
-  line-height: 1.1;
-  font-display: swap;
-  margin: 0;
-  ${media.desktop`font-size: 70px;`};
-  ${media.tablet`font-size: 60px;`};
-  ${media.phablet`font-size: 50px;`};
-  ${media.phone`font-size: 40px;`};
-`;
 const StyledSubtitle = styled.h3`
-  font-size: 80px;
+  font-size: 75px;
   line-height: 1.1;
   color: ${colors.slate};
   font-display: swap;
@@ -69,10 +59,9 @@ const Hero = ({ data }) => {
   const { frontmatter, html } = data[0].node;
 
   const one = () => (
-    <StyledOverline style={{ transitionDelay: '100ms' }}>{frontmatter.title}</StyledOverline>
-  );
-  const two = () => (
-    <StyledTitle style={{ transitionDelay: '200ms' }}>{frontmatter.name}.</StyledTitle>
+    <StyledOverline style={{ transitionDelay: '100ms' }}>
+      {frontmatter.title} {frontmatter.name}.
+    </StyledOverline>
   );
   const three = () => (
     <StyledSubtitle style={{ transitionDelay: '300ms' }}>{frontmatter.subtitle}</StyledSubtitle>
@@ -91,7 +80,7 @@ const Hero = ({ data }) => {
     </div>
   );
 
-  const items = [one, two, three, four, five];
+  const items = [one, three, four, five];
 
   return (
     <StyledContainer>

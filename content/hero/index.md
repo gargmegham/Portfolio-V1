@@ -1,7 +1,7 @@
 ---
 title: 'Hi, my name is'
 name: 'Megham Garg'
-subtitle: 'I help startups bring their ideas to life, by helping them launch their MVP.'
+subtitle: 'Solving problems by creating software solutions is my specialty.'
 buttonText: 'Say Hi'
 ---
 

@@ -17,7 +17,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'Megham Garg',
-        short_name: 'Megham Garg',
+        short_name: 'Megham',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
@@ -112,7 +112,7 @@ module.exports = {
         trackingId: 'UA-251888039-1',
       },
       pluginConfig: {
-        head: true
+        head: true,
       },
     },
     {
@@ -122,8 +122,8 @@ module.exports = {
         // Boolean value for enabling clarity while developing
         // true will enable clarity tracking code on both development and production environments
         // false will enable clarity tracking code on production environment only
-        enable_on_dev_env: true
+        enable_on_dev_env: true,
       },
-    }
+    },
   ],
 };
