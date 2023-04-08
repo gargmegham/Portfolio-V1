@@ -8,7 +8,7 @@ module.exports = {
   siteLanguage: 'en_US',
   name: 'Megham Garg',
   location: 'Haryana, India',
-  email: 'gargmegham3@gmail.com',
+  email: 'meghamgarg@gmail.com',
   github: 'https://github.com/gargmegham/',
   twitterHandle: '@garg_megham',
   socialMedia: [
@@ -19,14 +19,6 @@ module.exports = {
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/megham-garg/',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/garg_megham',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/meghamgarg/',
     },
     {
       name: 'Star',
