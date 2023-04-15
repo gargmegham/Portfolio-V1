@@ -1,8 +1,5 @@
-<div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/master/src/images/logo.png" width="100" />
-</div>
 <h1 align="center">
-  Megham Garg- Portfolio
+  Museum of my past projects
 </h1>
 <p align="center">
   <a href="https://app.netlify.com/sites/meghamgarg/deploys" target="_blank">
@@ -10,7 +7,7 @@
   </a>
 </p>
 <p align="center">
-  The portfolio of <a href="https://meghamgarg.netlify.app/" target="_blank">Megham_Garg</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+  Built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 </p>
 
 ### Credits🚨:
