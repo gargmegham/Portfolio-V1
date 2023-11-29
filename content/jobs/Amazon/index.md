@@ -7,6 +7,6 @@ range: 'Feb - Jun 2020'
 url: 'https://amazon.in/'
 ---
 
-- Lead a team of 48 Associates along with other Area Managers.
-- Worked with SQL, statistics, python, and VBA to observe trends in warehouse damage datasets.
+- Worked with a team of Associates and Area Managers.
+- Used SQL, statistics, and visual basic to observe trends in warehouse damage dataset.
 - Proposed solutions based on analytics with potential warehouse damage reduction.

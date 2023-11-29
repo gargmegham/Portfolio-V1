@@ -7,5 +7,5 @@ range: 'June - July 2019'
 url: 'https://www.oceanatech.in/'
 ---
 
-- lead team of 15 interns on a chatbot, and text Analytics project.
-- Worked on NLP, Django, Python, MongoDB, Pandas, recommendation systems, google charts.
+- Learnt & implemented NLP concepts on a Django website and deployed it on an ubuntu server.
+- Learnt to interact with NoSQL databases like MongoDB
