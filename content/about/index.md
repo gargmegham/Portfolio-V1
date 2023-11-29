@@ -18,7 +18,7 @@ skills:
   - NLP
 ---
 
-I enjoy creating solutions that help people be more productive in whatever they like doing. The solutions that I build are mostly in the form of code, or content. My goal is to build solutions that are scalable, easy to use and are rewarding to build.
+I enjoy creating solutions that help people be more productive in whatever they like doing. My goal is to build solutions that are scalable, easy to use and are rewarding to build.
 
 Graduated in July 2020 from [Jaypee University](http://www.juit.ac.in/), I have worked on a variety of Web Development, ML and Data Science projects.
 
