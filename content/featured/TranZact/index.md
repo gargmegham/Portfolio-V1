@@ -1,5 +1,5 @@
 ---
-date: '4'
+date: '2'
 title: 'TranZact'
 cover: './tranzact.png'
 external: 'https://letstranzact.com/'

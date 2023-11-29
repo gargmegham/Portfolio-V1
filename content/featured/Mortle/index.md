@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '1'
 title: 'Mortle'
 cover: './mortle.png'
 external: 'https://mortle.netlify.app/'
