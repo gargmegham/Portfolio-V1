@@ -4,7 +4,7 @@ title: Privacy Policy
 
 ## Privacy Notice
 
-This notice applies across all websites that we own and operate and all services we provide, including our online and mobile accounting and financial services products, and any other apps or services we may offer (our “services”)
+This notice applies across all websites that we own and operate and all services we provide, including our online and mobile software services products, and any other apps or services we may offer (our “services”)
 
 When we say “personal data”, we mean information that would identify you, like your name, email, address, telephone number, bank account details, payment information and so on. The same would apply to information that could identify other users in your teams that are shared with Agroha Solutions.
 
@@ -14,7 +14,7 @@ We may need to update this notice from time to time. When a significant change i
 
 # Clause 1: Who are “we”?
 
-When we refer to “we” (or “our” or “us'), that means Agroha Solutions and all its wholly owned subsidiaries, including the primary operating entity, Agroha Solutions Our headquarters are in Jagadhri but we operate and have offices all over the world. Address details for all Agroha Solutions offices are available on our “Contact Us” page.
+When we refer to “we” (or “our” or “us'), that means Agroha Solutions and all its wholly owned subsidiaries, including the primary operating entity, Agroha Solutions Our headquarters is located in Jagadhri. Address details for all Agroha Solutions offices are available on our “Contact Us” page.
 
 # Clause 2: Our Principles of Data Protection
 
@@ -34,7 +34,7 @@ When you visit our websites or use our services, we collect personal data. The w
 
 3. Information we collect automatically: We collect some information about you automatically when you visit our websites or use our product/services, like your IP address and device type. We also collect information when you navigate through our websites and services, including what pages you looked at and what links you clicked on. This information is useful for us as it helps us get a better understanding of how you're using our websites and services so that we can continue to provide the best experience possible (e.g., by personalising the content you see). Some of this information is collected using cookies and similar tracking technologies.
 
-4. Information we get from third parties: The majority of information we collect, we collect directly from you. Sometimes we might collect personal data about you from other sources, such as publicly available materials or trusted third parties like our marketing and research partners. We use this information to supplement the personal data we already have about you, in order to better inform, personalise and improve our services, and to validate the personal data you provide.
+4. Information we get from third parties: The majority of information we collect, we collect directly from you. Sometimes we might collect personal data about you from other sources, such as publicly available materials or trusted third parties like our marketing and research partners. We use this information to supplement the personal data we already have about you, in order to better inform, personalise and improve our services, and to validate the personal data you provide. And for data that we get from accounts integrated by you such as Google, Microsoft accounts, all such data is solely used to provide you essential functionality and is not used by us for any other purpose such as advertisement of any sorts and all this data is encrypted to reassure your security and privacy. We don't share this data with any other company under any circumstances.
 
 Where we collect personal data, we'll only process it:
 
