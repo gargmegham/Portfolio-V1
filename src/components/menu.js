@@ -5,7 +5,6 @@ import { navLinks } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media } from '@styles';
 const { colors, fontSizes, fonts } = theme;
-import trackGaEvent from "@tracking";
 
 const StyledContainer = styled.div`
   position: fixed;
@@ -100,22 +99,19 @@ const Menu = ({ menuOpen, toggleMenu }) => {
       menuOpen={menuOpen}
       onClick={handleMenuClick}
       aria-hidden={!menuOpen}
-      tabIndex={menuOpen ? 1 : -1}>
+      tabIndex={menuOpen ? 1 : -1}
+    >
       <Sidebar>
         <NavLinks>
           <NavList>
             {navLinks &&
               navLinks.map(({ url, name }, i) => (
                 <NavListItem key={i}>
-                  <NavLink to={url} onClick={() =>
-                    trackGaEvent(
-                      "click",
-                      `Menu ${name}`,
-                    )}>{name}</NavLink>
+                  <NavLink to={url}>{name}</NavLink>
                 </NavListItem>
               ))}
           </NavList>
-          <BlogLink onClick={() => clicked('Blog')} href="/blog" target="_blank" rel="nofollow noopener noreferrer">
+          <BlogLink href="/blog" target="_blank" rel="nofollow noopener noreferrer">
             Blog
           </BlogLink>
         </NavLinks>

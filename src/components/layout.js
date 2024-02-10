@@ -5,7 +5,6 @@ import { Head, Loader, Nav, Social, Email, Footer } from '@components';
 import styled from 'styled-components';
 import { GlobalStyle, theme } from '@styles';
 const { colors, fontSizes, fonts } = theme;
-import trackGaEvent from "@tracking";
 
 // https://medium.com/@chrisfitkin/how-to-smooth-scroll-links-in-gatsby-3dc445299558
 if (typeof window !== 'undefined') {
@@ -54,10 +53,6 @@ const Layout = ({ children, location }) => {
   const [isLoading, setIsLoading] = useState(isHome);
 
   useEffect(() => {
-    trackGaEvent(
-      "view",
-      "Landing Page",
-    );
     if (isLoading) {
       return;
     }

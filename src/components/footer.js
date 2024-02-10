@@ -4,7 +4,6 @@ import { socialMedia } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media } from '@styles';
 const { colors, fontSizes, fonts } = theme;
-import trackGaEvent from '@tracking';
 
 const StyledContainer = styled.footer`
   ${mixins.flexCenter};
@@ -64,11 +63,11 @@ const Footer = () => (
           socialMedia.map(({ name, url }, i) => (
             <li key={i}>
               <StyledSocialLink
-                onClick={() => trackGaEvent('click', `Social Footer ${name}`)}
                 href={url}
                 target="_blank"
                 rel="nofollow noopener noreferrer"
-                aria-label={name}>
+                aria-label={name}
+              >
                 <FormattedIcon name={name} />
               </StyledSocialLink>
             </li>

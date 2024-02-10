@@ -5,7 +5,6 @@ import { srConfig } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;
-import trackGaEvent from '@tracking';
 
 const StyledContainer = styled(Section)`
   text-align: center;
@@ -59,10 +58,10 @@ const Contact = ({ data }) => {
       <StyledTitle>{title}</StyledTitle>
       <div dangerouslySetInnerHTML={{ __html: html }} />
       <StyledEmailLink
-        onClick={() => trackGaEvent('click', `CTA ${buttonText}`)}
         href={'https://calendly.com/megham-garg/session-with-megham'}
         target="_blank"
-        rel="nofollow noopener noreferrer">
+        rel="nofollow noopener noreferrer"
+      >
         {buttonText}
       </StyledEmailLink>
     </StyledContainer>

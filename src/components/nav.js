@@ -10,7 +10,6 @@ import { IconLogo } from '@components/icons';
 import styled from 'styled-components';
 import { theme, mixins, media } from '@styles';
 const { colors, fontSizes, fonts, loaderDelay } = theme;
-import trackGaEvent from "@tracking";
 
 const StyledContainer = styled.header`
   ${mixins.flexBetween};
@@ -286,8 +285,9 @@ class Nav extends Component {
                     <CSSTransition key={i} classNames={fadeDownClass} timeout={timeout}>
                       <StyledListItem
                         key={i}
-                        style={{ transitionDelay: `${isHome ? i * 100 : 0}ms` }}>
-                        <StyledListLink onClick={() => trackGaEvent("click", `Nav ${name}`)} to={url}>{name}</StyledListLink>
+                        style={{ transitionDelay: `${isHome ? i * 100 : 0}ms` }}
+                      >
+                        <StyledListLink to={url}>{name}</StyledListLink>
                       </StyledListItem>
                     </CSSTransition>
                   ))}
@@ -299,10 +299,10 @@ class Nav extends Component {
                 <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                   <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
                     <StyledBlogButton
-                      onClick={() => trackGaEvent("click", 'Nav Blog')}
                       href="/blog"
                       target="_blank"
-                      rel="nofollow noopener noreferrer">
+                      rel="nofollow noopener noreferrer"
+                    >
                       Blog
                     </StyledBlogButton>
                   </div>

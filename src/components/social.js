@@ -6,7 +6,6 @@ import { FormattedIcon } from '@components/icons';
 import styled from 'styled-components';
 import { theme } from '@styles';
 const { colors } = theme;
-import trackGaEvent from "@tracking";;
 
 const StyledList = styled.ul`
   display: flex;
@@ -41,27 +40,25 @@ const StyledLink = styled.a`
   }
 `;
 
-const Social = ({ isHome }) => {
-  return (
-    <Side isHome={isHome} orientation="left">
-      <StyledList>
-        {socialMedia &&
+const Social = ({ isHome }) => (
+  <Side isHome={isHome} orientation="left">
+    <StyledList>
+      {socialMedia &&
           socialMedia.map(({ url, name }, i) => (
             <li key={i}>
               <StyledLink
-                onClick={() => trackGaEvent("click", `Nav ${name}`)}
                 href={url}
                 target="_blank"
                 rel="nofollow noopener noreferrer"
-                aria-label={name}>
+                aria-label={name}
+              >
                 <FormattedIcon name={name} />
               </StyledLink>
             </li>
           ))}
-      </StyledList>
-    </Side>
-  )
-};
+    </StyledList>
+  </Side>
+);
 
 Social.propTypes = {
   isHome: PropTypes.bool,
