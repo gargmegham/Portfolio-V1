@@ -107,12 +107,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingIds: ['G-T9HTMKD3WG'],
-      },
-    },
-    {
       resolve: `gatsby-plugin-clarity`,
       options: {
         clarity_project_id: 'eyl7yfbkyo',
